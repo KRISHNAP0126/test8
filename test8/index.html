@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 8</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Movie Recommendation System</h1>
+
+    <label> Select Genere: </label>
+    <select name="" id="select">
+        <option value="">All</option>
+        <option value="">horror</option>
+        <option value="">comdey</option>
+        <option value="">action</option>
+        
+        
+    </select>
+    <div id="show"></div>
+
+
+    <script>
+        const movies=[
+            { title: "EVILDEAD" , genere:"horror"},
+            { title: "CONJURING" , genere:"horror"},
+            { title: "NOBODY" , genere:"action"},
+            { title: "JOHNWICK" , genere: "action"},
+            { title: "HANGOVER" , genere:"comedy"},
+            { title: "FREEGUY" , genere:"comedy" },
+            { title: "MIB ", genere:"comedy"},
+            { title: "ENTERTHEDRAGON" , genere:"action"},
+            { title: "WRONGTURN" , genere:"horror"}
+
+
+        ]
+
+        var holly=movies.map(movie => genere)
+        {
+            return (<h1>{$movie.title}</h1> <p>{$movie.genere}</p>);
+            
+        }
+
+
+
+
+    </script>
+    
+    
+    
+</body>
+</html>
